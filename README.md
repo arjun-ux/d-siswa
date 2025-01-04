@@ -21,7 +21,7 @@ Dashboard Siswa ini adalah halaman statis yang dirancang untuk menampilkan infor
 ### Penjelasan Struktur
 
 1. **index.html**: Berisi struktur dasar dari halaman dashboard.
-2. **style.css**: Digunakan untuk mendesain tampilan halaman agar lebih menarik dan responsif di berbagai perangkat.
+2. **style.css**: Digunakan untuk mendesain tampilan halaman agar lebih menarik di perangkat mobile.
 3. **README.md**: Dokumentasi yang menjelaskan bagaimana cara menggunakan, mengembangkan, dan memahami proyek.
 
 Jika Anda membutuhkan contoh file `index.html` atau `style.css`, saya bisa membuatkannya untuk Anda.
