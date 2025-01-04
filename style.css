@@ -1,7 +1,8 @@
 :root {
-    --bg: #f8f2d6;
-    --icon-color: rgb(117, 128, 0);
-    --card-color: rgb(248, 245, 229);
+    --bg:rgb(252, 255, 215);
+    --icon-color: rgb(99, 108, 2);
+    --card-color: rgba(241, 239, 222, 0.4);
+    --hr: rgba(198, 198, 197, 0.641);
 }
 body {
     background-color: var(--bg);
@@ -142,10 +143,10 @@ body {
     bottom: 0;
     width: 100%;
     background-color: var(--card-color);
-    border-top: 1px solid rgb(199, 199, 199);
+    border-top: 1px solid var(--hr);
     display: flex;
     justify-content: space-around;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 .footer a {
     color:  rgb(117, 128, 0);
