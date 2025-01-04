@@ -1,0 +1,161 @@
+:root {
+    --bg: #f8f2d6;
+    --icon-color: rgb(117, 128, 0);
+    --card-color: rgb(248, 245, 229);
+}
+body {
+    background-color: var(--bg);
+    font-family: Arial, sans-serif;
+}
+.header {
+    text-align: center;
+    color: rgb(74, 74, 2);
+    margin-top: 20px;
+}
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.class-info {
+    background-color: rgb(117, 128, 0);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+.menu {
+    background-color: var(--card-color);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.menu .row {
+    margin-bottom: 10px;
+}
+.menu .col {
+    text-align: center;
+}
+.menu .col i {
+    font-size: 24px;
+    color:  var(--icon-color)
+}
+.menu .col p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+.menu .col a {
+    margin-top: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+/* pembayaran */
+
+.header .back-icon {
+    font-size: 24px;
+    margin: 0;
+    color: var(--icon-color)
+}
+.content {
+    padding: 15px;
+}
+.year-selector {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.year-selector h2 {
+    font-size: 18px;
+    color: #343a40;
+    margin: 0;
+}
+.year-selector select {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.nav-tabs .nav-link {
+    color: var(--icon-color)
+    
+}
+.nav-tabs .nav-link.active {
+    color: var(--icon-color);
+    border-color: var(--icon-color);
+    font-weight: bold;
+}
+.payment-info {
+    background-color: var(--card-color);
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.payment-info .left {
+    display: flex;
+    flex-direction: column;
+}
+.payment-info h3 {
+    font-size: 16px;
+    color: #343a40;
+    margin: 0;
+}
+.payment-info .status {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+.payment-info .status span {
+    background-color: var(--icon-color);
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 12px;
+}
+.payment-info .right {
+    text-align: right;
+}
+.payment-info .amount {
+    font-size: 16px;
+    color: #343a40;
+}
+.payment-info .date {
+    font-size: 12px;
+    color: #6c757d;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--card-color);
+    border-top: 1px solid rgb(199, 199, 199);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+.footer a {
+    color:  rgb(117, 128, 0);
+    text-align: center;
+    text-decoration: none;
+}
+.footer a i {
+    display: block;
+    font-size: 24px;
+}
+.footer a span {
+    font-size: 12px;
+}
